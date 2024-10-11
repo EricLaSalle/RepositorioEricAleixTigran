@@ -9,5 +9,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         //inici programa
         carmels = sc.nextInt();//leer carmels
+        nets= sc.nextInt(); //Leer nets
+        sobrants = carmels  % nets; //Calcular residuo
+        System.out.println(sobrants);
     }
 }
